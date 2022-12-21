@@ -143,7 +143,7 @@ const saveEntry = async () => {
     name: editName.value,
     value: editValue.value,
     metadata: {
-      created: Math.round(new Date().getTime()),
+      created: Math.round(new Date().getTime() / 1000),
       hits: 0
     }
   }
