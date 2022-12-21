@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "publish": "wrangler publish --keep-vars"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "latest",
+    "wrangler": "^2.6.2"
+  }
+}

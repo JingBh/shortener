@@ -1,0 +1,7 @@
+name = "shortener"
+compatibility_date = "2022-11-24"
+main = "main.js"
+
+kv_namespaces = [
+  { binding = "URLS", id = "0840dde14ff34e0488b76a0ee84e6011" }
+]
